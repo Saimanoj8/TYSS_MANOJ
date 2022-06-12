@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="com.Vtiger.TestCases.TC01_CreateOrg_with_Testng">
+        <methods>
+          <include name="connecttoDB"/>
+          <include name="disConnectDB"/>
+          <include name="logout"/>
+          <include name="createorg"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.Vtiger.TestCases.TC01_CreateOrg_with_Testng -->
+      <class name="com.Vtiger.TestCases.TC02_CreateOrg_DD_with_Testng">
+        <methods>
+          <include name="connecttoDB"/>
+          <include name="disConnectDB"/>
+          <include name="logout"/>
+          <include name="createorg_dd"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.Vtiger.TestCases.TC02_CreateOrg_DD_with_Testng -->
+      <class name="com.Vtiger.TestCases.TC03_CreateContact_with_Testng">
+        <methods>
+          <include name="connecttoDB"/>
+          <include name="disConnectDB"/>
+          <include name="logout"/>
+          <include name="createcontact_org"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.Vtiger.TestCases.TC03_CreateContact_with_Testng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.Vtiger.TestCases.TC01_CreateOrg_with_Testng">
+        <methods>
+          <include name="connecttoDB"/>
+          <include name="disConnectDB"/>
+          <include name="logout"/>
+          <include name="createorg"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.Vtiger.TestCases.TC01_CreateOrg_with_Testng -->
+      <class name="com.Vtiger.TestCases.TC02_CreateOrg_DD_with_Testng">
+        <methods>
+          <include name="connecttoDB"/>
+          <include name="disConnectDB"/>
+          <include name="logout"/>
+          <include name="createorg_dd"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.Vtiger.TestCases.TC02_CreateOrg_DD_with_Testng -->
+      <class name="com.Vtiger.TestCases.TC03_CreateContact_with_Testng">
+        <methods>
+          <include name="connecttoDB"/>
+          <include name="disConnectDB"/>
+          <include name="logout"/>
+          <include name="createcontact_org"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.Vtiger.TestCases.TC03_CreateContact_with_Testng -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
